@@ -1,0 +1,7 @@
+python3
+numpy
+pandas
+matplotlib
+pyiast
+tqdm
+sys
