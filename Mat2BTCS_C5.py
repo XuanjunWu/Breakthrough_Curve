@@ -52,7 +52,7 @@ components = len(qmax)
 bi = np.array([0.005416,0.000826])  #kPa^-1
 '''
 
-outfile = "MOF4641-.csv"
+outfile = "MOF4641-5.csv"
 
 
 #Select the Isotherm Files
