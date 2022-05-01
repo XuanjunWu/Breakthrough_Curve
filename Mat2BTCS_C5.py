@@ -52,7 +52,7 @@ components = len(qmax)
 bi = np.array([0.005416,0.000826])  #kPa^-1
 '''
 
-outfile = "MOF4641-2.csv"
+outfile = "MOF4641-.csv"
 
 
 #Select the Isotherm Files
@@ -115,11 +115,11 @@ u0 = 0.40 #Velocity, m/sec
 
 #Discretization and initialization 
 
-delz = 0.005 #Discretized bed length, bed is normalized to 0-1 
-zmax = 0.5 #Dimensionless bed length 
+delz = 0.01 #Discretized bed length, bed is normalized to 0-1 
+zmax = 0.3 #Dimensionless bed length 
 m = int(zmax/delz) #Number of points 
 z = np.linspace(0,zmax,num=m+1) #Zeroed z matrix 
-delt = 0.025 #Discretized time scale, time is normalized to velocity and bed 
+delt = 0.01 #Discretized time scale, time is normalized to velocity and bed 
 tmax = 500 #Max breakthrough time, dimensionless time 
 n = int(tmax/delt) #Number of points 
 t = np.linspace(0,tmax,num=n+1) #Zeroed t matrix
@@ -202,7 +202,7 @@ for i in trange(n):
         #dy3dy = -1-dy2dy
         if j == m:
            for k in range(ncomp):        
-               if ynew[k] <= 0.02*y0[k]:
+               if ynew[k] <= 0.02:
                    tbreak[k] = t[i+1]
                    pstore[k] = py[k,i+1,:] 
                    ustore = u[i,:] 
