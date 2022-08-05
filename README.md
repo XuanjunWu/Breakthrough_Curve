@@ -1,8 +1,10 @@
 ## Breakthrough curve for adsorption column.
-
+Breakthrough_Curve is a package for calculating the breakthrough curve of multicomponent gas adsorption in fixed bed packed with porous media. 
 
 
 ## Cite Breakthrough_Curve
+
+If you use Breakthrough_Curve for academic research, you are encouraged to cite the following paper:
 ```
 @Article{D2CP01139E,
 author ="Li, Mengmeng and Cai, Weiquan and Wang, Chao and Wu, Xuanjun",
