@@ -4,7 +4,7 @@ Breakthrough_Curve is a package for calculating the breakthrough curve of multic
 
 ## Cite Breakthrough_Curve
 
-If you use Breakthrough_Curve for academic research, you are encouraged to cite the following paper:
+If you use Breakthrough_Curve for academic research, you are encouraged to cite the following [paper](http://dx.doi.org/10.1039/D2CP01139E):
 ```
 @Article{D2CP01139E,
 author ="Li, Mengmeng and Cai, Weiquan and Wang, Chao and Wu, Xuanjun",
